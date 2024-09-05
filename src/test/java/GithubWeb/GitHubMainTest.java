@@ -10,6 +10,12 @@ import org.testng.annotations.Test;
 public class GitHubMainTest extends BaseClass {
 
     @Test
+    @Epic("Doc flow")
+    @Feature("Login form")
+    @Story("User enters the wrong password")
+    @Owner("Ahmed Alsaeedi")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Test that verifies a user can explore the Docs")
     public void sigInMethod() throws InterruptedException {
 
         GitHubMainPages singIn = new GitHubMainPages(driver);
