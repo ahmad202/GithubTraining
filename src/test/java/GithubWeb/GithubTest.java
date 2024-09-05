@@ -20,7 +20,7 @@ public class GithubTest extends BaseClass {
         loginPages.enterUsername("testuser");
         loginPages.enterPassword("testpassword");
         loginPages.clickLoginButton();
-        Thread.sleep(1000);
+        Thread.sleep(10000);
 
     }
 
